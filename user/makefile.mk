@@ -7,6 +7,7 @@ USER_PROGS := \
 	grep\
 	init\
 	kill\
+	test1-test2-test3\
 	ln\
 	ls\
 	mkdir\
@@ -74,7 +75,7 @@ USER_LDFLAGS += --omagic
 USER_LDFLAGS += --entry=main
 
 # location in memory where the program will be loaded
-USER_LDFLAGS += --section-start=.text=0x0
+USER_LDFLAGS += --section-start=.text=0x1000
 
 user/bin:
 	mkdir -p user/bin
