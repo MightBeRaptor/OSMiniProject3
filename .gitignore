@@ -1,0 +1,16 @@
+# Object and dependency files
+*.o
+*.d
+
+# Generated assembly and symbols
+*.asm
+*.sym
+
+# Disk images
+*.img
+
+# Build outputs
+*.out
+
+# QEMU log/output files
+*.log
